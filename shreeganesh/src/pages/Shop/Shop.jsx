@@ -6,7 +6,7 @@ function Shop() {
   return (
     <div className='shop'>
       <div className='shopTitle'>
-        <h1>Radhey Radhey</h1>
+        <p><b>Radhey Radhey</b></p>
       </div>
       <div className="products">
         {
