@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar';
 import Shop from './pages/Shop/Shop';
 import Cart from './pages/Cart/Cart';
 import ShopConntextProvider from './Context/ShopContext'
+
 function App() {
   return (
     <ShopConntextProvider>
@@ -16,6 +17,7 @@ function App() {
         </Routes>
       </Router>
     </div>
+    
     </ShopConntextProvider>
   );
 }
